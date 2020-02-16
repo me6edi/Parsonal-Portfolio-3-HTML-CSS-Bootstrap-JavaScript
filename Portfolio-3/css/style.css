@@ -252,10 +252,36 @@ label {
 #scrollUp:hover {
 	background: #444;
 }
+ 
 
 
 
+/*header*/
+.main-menu ul li {
+  display: inline-block;
+}
+.main-menu ul li a {
+  color: #000a2d;
+  font-weight: 500;
+  display: block;
+  padding: 45px 15px;
+  position: relative;
+}
 
+.main-menu ul li:hover > a {
+  color: #ff3d4f;
+}
 
-
-
+.main-menu ul li a::before{
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 0;
+	background: #ff3d4f;
+	bottom: 23px;
+	left: 0;
+	transition: .3s;
+}
+.main-menu ul li:hover a::before{
+width: 100%;
+}
