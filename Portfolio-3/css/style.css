@@ -354,3 +354,17 @@ width: 100%;
 	margin-left: 12px;
 	letter-spacing: 1px;
 }
+.section-title span {
+    color: #ff3d4f;
+}
+.section-title h2 {
+    font-size: 70px;
+    line-height: 1.2;
+}
+/*card */
+.card-body{
+	height: 540px;
+	width: 370px;
+	margin-top: 46px;
+	margin-bottom: 57px;
+}
