@@ -3,8 +3,8 @@
 
 // meanmenu
 $('#mobile-menu').meanmenu({
-	meanMenuContainer: '.mobile-menu',
-	meanScreenWidth: "992"
+	meanMenuContainer: '.hibo-mobile-menu',
+	meanScreenWidth: "1200"
 });
 
 // One Page Nav

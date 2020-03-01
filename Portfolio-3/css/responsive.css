@@ -1,13 +1,22 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
+	.header-area{
+		padding: 0 50px; 
+	}
 
+.slider-thumb::before{
+	left: 0;
+	width: 670px;
+	height: 670px;
+}
+.slider-thumb{
 
+}
 }
 
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-
 
 }
 
